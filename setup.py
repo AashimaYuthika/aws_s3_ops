@@ -20,7 +20,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='aws_s3_ops1',  # Required - name of the project
+    name='aws_s3_ops',  # Required - name of the project
 
     version='0.0.0',  # Required - project version
 
