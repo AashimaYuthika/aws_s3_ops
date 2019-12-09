@@ -28,7 +28,7 @@ The list of available functions are:
 
 #### save_pickle
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -39,7 +39,7 @@ obj_s3.save_pickle(bucket=bucket, key=key, obj=obj)  # Returns boolean
 ```
 #### load_pickle
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -51,7 +51,7 @@ obj = obj_s3.load_pickle(bucket=bucket, key=key)  # Loads unpickled object from 
 #### save_csv
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 import pandas as pd
 
 obj_s3 = S3Operations()
@@ -68,7 +68,7 @@ obj_s3.save_csv(bucket=bucket, key=key, df=df, compression="gzip", index=False)
 #### save_json
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 import pandas as pd
 
 obj_s3 = S3Operations()
@@ -85,7 +85,7 @@ obj_s3.save_csv(bucket=bucket, key=key, df=df, compression="gzip")
 #### download_file
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -98,7 +98,7 @@ obj_s3.download_file(bucket=bucket, key=key, local_path=local_path)
 #### upload_file
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -111,7 +111,7 @@ obj_s3.upload_file(bucket=bucket, key=key, local_path=local_path)
 #### key_exists
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -123,7 +123,7 @@ file_existence_boolean = obj_s3.key_exists(bucket=bucket, key=key)
 #### delete_data
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -139,7 +139,7 @@ obj_s3.delete_data(bucket=bucket, key=key)
 #### get_prefix_object
 
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 
 obj_s3 = S3Operations()
 bucket = "your-bucket-name-here"
@@ -154,7 +154,7 @@ keys = obj_s3.get_prefix_object(bucket=bucket, key=key, file_extension="txt")
 
 #### get_file_buffer
 ```python
-from aws_s3_ops.aws_s3_ops import S3Operations
+from aws_s3_ops import S3Operations
 import pandas as pd
 
 obj_s3 = S3Operations()
