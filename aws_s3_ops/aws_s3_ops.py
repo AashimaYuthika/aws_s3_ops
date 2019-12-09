@@ -3,7 +3,7 @@ This module is responsible for s3 I/O Operations.
 """
 
 __author__ = "Aashima Yuthika"
-__version = "0.0.0"
+__version = "1.0.0"
 
 import gzip
 import os

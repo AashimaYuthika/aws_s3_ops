@@ -22,7 +22,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='aws_s3_ops',  # Required - name of the project
 
-    version='0.0.0',  # Required - project version
+    version='1.0.0',  # Required - project version
 
     description='This repository contains code for input and output operations on s3 buckets',  # Optional - one-line description - "Summary" metadata field
 

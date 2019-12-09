@@ -3,7 +3,7 @@ This module defines custom exceptions
 """
 
 __author__ = "Aashima Yuthika"
-__version__ = "0.0.0"
+__version__ = "1.0.0"
 
 
 class UnsupportedCompressionException(Exception):
