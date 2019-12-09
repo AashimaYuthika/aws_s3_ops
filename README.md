@@ -18,3 +18,9 @@ The list of available functions are:
 - `load_pickle`
 - `save_csv`
 - `save_json`
+- `download_file`
+- `upload_file`
+- `key_exists`
+- `delete_data`
+- `get_prefix_object`
+- `get_file_buffer`
