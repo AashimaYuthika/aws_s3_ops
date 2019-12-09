@@ -195,7 +195,7 @@ class S3Operations(object):
 
         :param bucket: The bucket to which the file is to be uploaded
         :param key: The exact path within the bucket for the file, including the filename and extension
-        :param local_path: The local path of the file which the is to be uploaded
+        :param local_path: The local path of the file which is to be uploaded
 
         :return: Returns a boolean indicating whether the file has been uploaded to the appropriate s3 path or not
         """
